@@ -1,0 +1,356 @@
+html {
+    background-color: rgba(28, 28, 28) !important;
+    color: #e8e6e3;
+}
+
+body {
+    overflow-x: hidden  ;
+}
+
+.home {
+    font-family: "Noto Sans", sans-serif; 
+
+}
+
+.profileh {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 130px; 
+    height: 130px;
+}
+
+.welc {
+    margin-left: 1%;
+}
+
+.eutransparente {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 30%; 
+    height: auto;
+    float: right;
+    position: absolute;
+    right: -2%;
+    bottom: 0%;
+    
+ }
+
+header {    
+    padding: 10px 0px 10px 10px;
+    background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
+    background-color: rgba(27, 57, 78);
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#btn1 {
+    position: fixed;
+    left: 60%;
+    top: 10%;
+}
+
+
+#btn2 {
+    position: fixed;
+    left: 70%;
+    top: 10%;
+}
+
+#about {
+    position: fixed;
+    top: 22%;
+    left: 2%;
+    font-weight: bold;
+}
+
+#langs {
+    position: fixed;
+    top: 22%;
+    right: 48.07%;
+    font-weight: bold;
+}
+
+#text1 {
+    position: fixed;
+    font-size: 150%;
+    width: 30%;
+    height: auto;
+    top: 32%;
+    left: 2%;
+    padding: 0%;
+    margin: 0%;
+    line-height: 1.5;
+}
+
+#text2 {
+    position: fixed;
+    font-size: 150%;
+    width: 30%;
+    height: auto;
+    top: 32%;
+    left: 40%;
+    padding: 0%;
+    margin: 0%;
+    line-height: 1.5;
+}
+
+.imgs { 
+    position: fixed !important;  
+    border-radius: 60%;
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+    border: 3px solid rgba(255, 0, 0, 0);
+    padding: 2px;
+    transition: 0.15s;
+
+}
+.imgs:hover {
+    width: 70px;
+    height: 70px;
+    border: solid 3px rgb(58, 121, 165);
+    transition: 0.15s;
+    padding: 2px;
+}
+.imgs:active {
+    transition: 0.1s ease-in-out;
+    width: 80px;
+    height: 80px;
+}
+
+#gmailbtn {
+    top: 87%;
+    left: 2%;
+}
+
+#whatsbtn {
+    top: 87%;
+    left: 9%;
+}
+
+#whatsbtn {
+    top: 87%;
+    left: 9%;
+}
+
+#linkedinbtn {
+    top: 87%;
+    left: 16%;
+}
+#linkedinbtn {
+    top: 87%;
+    left: 16%;
+}
+
+#gitbtn {
+    top: 87%;
+    left: 23%;
+}
+#gitbtn {
+    top: 87%;
+    left: 23%;
+}
+
+#instabtm {
+    top: 87%;
+    left: 30%;
+}
+#instabtm {
+    top: 87%;
+    left: 30%;
+}
+
+#contacts {
+    position: fixed !important; 
+    top: 78%;
+    left: 2%;
+}
+
+#projects {
+    position: fixed !important; 
+    top: 78%;
+    left: 39.5%;
+}
+
+#P1 {
+    top: 87%;
+    left: 42%;
+}
+
+#P2 {
+    top: 87%;
+    left: 49%;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+@media screen and (orientation: portrait){
+    html {
+        background-color: rgba(28, 28, 28) !important;
+        color: #e8e6e3;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .home {
+        font-family: "Noto Sans", sans-serif; 
+    
+    }
+    
+    .profileh {
+        object-fit: cover;
+        border-radius: 50%;
+        width: 130px; 
+        height: 130px;
+    }
+    
+    .welc {
+        margin-left: 1%;
+    }
+    
+    .eutransparente {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        width: 50%; 
+        height: auto;
+        float: right;
+        position: absolute;
+        top: 18%;
+        right: -9%;
+        bottom: 0%;
+        
+     }
+    
+    header {    
+        padding: 10px 0px 10px 10px;
+        background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
+        background-color: rgba(27, 57, 78);
+        top: 0;
+        left: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #about {
+        position: fixed;
+        top: 14%;
+        left: 2%;
+        font-weight: bold;
+    }
+    
+    #langs {
+        position: fixed;
+        top: 50%;
+        left: 40%;
+        font-weight: bold;
+    }
+    
+    #text1 {
+        position: fixed;
+        font-size: 130%;
+        width: 70%;
+        height: 60%;
+        top: 22%;
+        left: 2%;
+        padding: 0%;
+        margin: 0%;
+        line-height: 1.1;
+    }
+    
+    #text2 {
+        position: fixed;
+        font-size: 130%;
+        width: 60%;
+        height: 60%;
+        left: 40%;
+        top: 58%;
+        padding: 0%;
+        margin: 0%;
+        line-height: 1.1;
+    }
+    
+    .imgs { 
+        position: fixed !important;  
+        border-radius: 60%;
+        object-fit: cover;
+        width: 75px;
+        height: 75px;
+        border: 3px solid rgba(255, 0, 0, 0);
+        padding: 2px;
+        transition: 0.15s;
+    
+    }
+    .imgs:hover {
+        width: 70px;
+        height: 70px;
+        border: solid 3px rgb(58, 121, 165);
+        transition: 0.15s;
+        padding: 2px;
+    }
+    .imgs:active {
+        transition: 0.1s ease-in-out;
+        width: 80px;
+        height: 80px;
+    }
+
+    #instabtm {
+        top: 57%;
+        left: 10%;
+    }
+    
+    
+    #gmailbtn {
+        top: 65%;
+        left: 1%;
+    }
+    
+    #whatsbtn {
+        top: 74%;
+        left: 10%;
+    }
+    
+    #linkedinbtn {
+        top: 83%;
+        left: 1%;
+    }
+    
+    #gitbtn {
+        top: 91%;
+        left: 10%;
+    }
+    
+    
+    #contacts {
+        position: fixed !important; 
+        top: 51%;
+        left: 2%;
+    }
+    
+    #projects {
+        position: fixed !important; 
+        top: 83%;
+        left: 39.5%;
+    }
+    
+    #P1 {
+        top: 91%;
+        left: 37%;
+    }
+    
+    #P2 {
+        top: 91%;
+        left: 58%;
+    }
+    }
