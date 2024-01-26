@@ -189,7 +189,7 @@ header {
     left: 49%;
 }
 /* ------------------------------------------------------------------------------------------------------------------------------------ */
-@media screen and (orientation: portrait){
+@media screen and (min-width: 430px) and (min-height: 932px){
     html {
         background-color: rgba(28, 28, 28) !important;
         color: #e8e6e3;
@@ -353,4 +353,170 @@ header {
         top: 91%;
         left: 58%;
     }
+}
+/* ------------------------------------------------------------------------------ */
+@media screen and (max-width: 540px) and (max-height: 1070px){
+    html {
+        background-color: rgba(28, 28, 28) !important;
+    color: #e8e6e3;
     }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .home {
+        font-family: "Noto Sans", sans-serif; 
+    
+    }
+    
+    .profileh {
+        object-fit: cover;
+        border-radius: 50%;
+        width: 130px; 
+        height: 130px;
+    }
+    
+    .welc {
+        margin-left: 1%;
+    }
+    
+    .eutransparente {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        width: 50%; 
+        height: auto;
+        float: right;
+        position: absolute;
+        top: 18%;
+        right: -9%;
+        bottom: 0%;
+        
+     }
+    
+    header {    
+        padding: 10px 0px 10px 10px;
+        background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
+        background-color: rgba(27, 57, 78);
+        top: 0;
+        left: 0;
+        right: 0;
+        left: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #about {
+        position: fixed;
+        top: 14%;
+        left: 2%;
+        font-weight: bold;
+    }
+    
+    #langs {
+        position: fixed;
+        top: 54%;
+        left: 40%;
+        font-weight: bold;
+    }
+    
+    #text1 {
+        position: fixed;
+        font-size: 130%;
+        width: 60%;
+        height: 60%;
+        top: 22%;
+        left: 2%;
+        padding: 0%;
+        margin: 0%;
+        line-height: 1.1;
+    }
+    
+    #text2 {
+        position: fixed;
+        font-size: 130%;
+        width: 60%;
+        height: 60%;
+        left: 40%;
+        top: 62%;
+        padding: 0%;
+        margin: 0%;
+        line-height: 1.1;
+    }
+    
+    .imgs { 
+        position: fixed !important;  
+        border-radius: 60%;
+        object-fit: cover;
+        width: 75px;
+        height: 75px;
+        border: 3px solid rgba(255, 0, 0, 0);
+        padding: 2px;
+        transition: 0.15s;
+    
+    }
+    .imgs:hover {
+        width: 70px;
+        height: 70px;
+        border: solid 3px rgb(58, 121, 165);
+        transition: 0.15s;
+        padding: 2px;
+    }
+    .imgs:active {
+        transition: 0.1s ease-in-out;
+        width: 80px;
+        height: 80px;
+    }
+
+    #instabtm {
+        top: 52%;
+        left: 10%;
+    }
+    
+    
+    #gmailbtn {
+        top: 60%;
+        left: 1%;
+    }
+    
+    #whatsbtn {
+        top: 68%;
+        left: 10%;
+    }
+    
+    #linkedinbtn {
+        top: 76%;
+        left: 1%;
+    }
+    
+    #gitbtn {
+        top: 84%;
+        left: 10%;
+    }
+    
+    
+    #contacts {
+        position: fixed !important; 
+        top: 46%;
+        left: 2%;
+    }
+    
+    #projects {
+        position: fixed !important; 
+        top: 78%;
+        left: 39.5%;
+    }
+    
+    #P1 {
+        top: 84%;
+        left: 37%;
+    }
+    
+    #P2 {
+        top:84%;
+        left: 58%;
+    }
+}
