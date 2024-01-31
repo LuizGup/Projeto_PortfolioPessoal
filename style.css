@@ -177,7 +177,8 @@
     }
      
     a:hover + .afetado {
-        
+        font-size: 88%;
+        width: 60%;
         top: 80% !important;
         left: 40%;
         line-height: 1.5;
