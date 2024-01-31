@@ -1,194 +1,6 @@
-html {
-    background-color: rgba(28, 28, 28) !important;
-    color: #e8e6e3;
-}
 
-body {
-    overflow-x: hidden  ;
-}
-
-.home {
-    font-family: "Noto Sans", sans-serif; 
-
-}
-
-.profileh {
-    object-fit: cover;
-    border-radius: 50%;
-    width: 130px; 
-    height: 130px;
-}
-
-.welc {
-    margin-left: 1%;
-}
-
-.eutransparente {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    width: 30%; 
-    height: auto;
-    float: right;
-    position: absolute;
-    right: -2%;
-    bottom: 0%;
-    
- }
-
-header {    
-    padding: 10px 0px 10px 10px;
-    background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
-    background-color: rgba(27, 57, 78);
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#btn1 {
-    position: fixed;
-    left: 60%;
-    top: 10%;
-}
-
-
-#btn2 {
-    position: fixed;
-    left: 70%;
-    top: 10%;
-}
-
-#about {
-    position: fixed;
-    top: 22%;
-    left: 2%;
-    font-weight: bold;
-}
-
-#langs {
-    position: fixed;
-    top: 22%;
-    right: 48.07%;
-    font-weight: bold;
-}
-
-#text1 {
-    position: fixed;
-    font-size: 150%;
-    width: 30%;
-    height: auto;
-    top: 32%;
-    left: 2%;
-    padding: 0%;
-    margin: 0%;
-    line-height: 1.5;
-}
-
-#text2 {
-    position: fixed;
-    font-size: 150%;
-    width: 30%;
-    height: auto;
-    top: 32%;
-    left: 40%;
-    padding: 0%;
-    margin: 0%;
-    line-height: 1.5;
-}
-
-.imgs { 
-    position: fixed !important;  
-    border-radius: 60%;
-    object-fit: cover;
-    width: 75px;
-    height: 75px;
-    border: 3px solid rgba(255, 0, 0, 0);
-    padding: 2px;
-    transition: 0.15s;
-
-}
-.imgs:hover {
-    width: 70px;
-    height: 70px;
-    border: solid 3px rgb(58, 121, 165);
-    transition: 0.15s;
-    padding: 2px;
-}
-.imgs:active {
-    transition: 0.1s ease-in-out;
-    width: 80px;
-    height: 80px;
-}
-
-#gmailbtn {
-    top: 87%;
-    left: 2%;
-}
-
-#whatsbtn {
-    top: 87%;
-    left: 9%;
-}
-
-#whatsbtn {
-    top: 87%;
-    left: 9%;
-}
-
-#linkedinbtn {
-    top: 87%;
-    left: 16%;
-}
-#linkedinbtn {
-    top: 87%;
-    left: 16%;
-}
-
-#gitbtn {
-    top: 87%;
-    left: 23%;
-}
-#gitbtn {
-    top: 87%;
-    left: 23%;
-}
-
-#instabtm {
-    top: 87%;
-    left: 30%;
-}
-#instabtm {
-    top: 87%;
-    left: 30%;
-}
-
-#contacts {
-    position: fixed !important; 
-    top: 78%;
-    left: 2%;
-}
-
-#projects {
-    position: fixed !important; 
-    top: 78%;
-    left: 39.5%;
-}
-
-#P1 {
-    top: 87%;
-    left: 42%;
-}
-
-#P2 {
-    top: 87%;
-    left: 49%;
-}
-/* ------------------------------------------------------------------------------------------------------------------------------------ */
-@media screen and (max-width: 430px) and (max-height: 932px){
+/* CELULARES EM GERAL */
+@media screen and (min-width: 320px){
     html {
         background-color: rgba(28, 28, 28) !important;
         color: #e8e6e3;
@@ -353,8 +165,9 @@ header {
         left: 58%;
     }
 }
-/* ------------------------------------------------------------------------------ */
-@media screen and (max-width: 540px) and (max-height: 1070px){
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+/* CELULARES COM ALTURA PEQUENA */
+@media screen and (min-width: 320px) and (min-height: 650px){
     html {
         background-color: rgba(28, 28, 28) !important;
     color: #e8e6e3;
@@ -372,8 +185,8 @@ header {
     .profileh {
         object-fit: cover;
         border-radius: 50%;
-        width: 130px; 
-        height: 130px;
+        width: 80px; 
+        height: 80px;
     }
     
     .welc {
@@ -384,18 +197,17 @@ header {
         display: flex;
         flex-direction: column;
         align-items: right;
-        width: 50%; 
+        width: 53%;
         height: auto;
         float: right;
         position: absolute;
-        top: 18%;
-        right: -9%;
+        top: 4%;
+        right: -10%;
         bottom: 0%;
-        
      }
     
     header {    
-        padding: 10px 0px 10px 10px;
+        padding: 5px 0px 5px 10px;
         background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
         background-color: rgba(27, 57, 78);
         top: 0;
@@ -410,24 +222,24 @@ header {
     
     #about {
         position: fixed;
-        top: 14%;
+        top: 12%;
         left: 2%;
         font-weight: bold;
     }
     
     #langs {
         position: fixed;
-        top: 54%;
+        top: 45%;
         left: 40%;
         font-weight: bold;
     }
     
     #text1 {
         position: fixed;
-        font-size: 130%;
-        width: 60%;
-        height: 60%;
-        top: 22%;
+        font-size: 90%;
+        width: 65%;
+        height: 30%;
+        top: 20%;
         left: 2%;
         padding: 0%;
         margin: 0%;
@@ -436,11 +248,11 @@ header {
     
     #text2 {
         position: fixed;
-        font-size: 130%;
+        font-size: 90%;
         width: 60%;
-        height: 60%;
+        height: 30%;
         left: 40%;
-        top: 62%;
+        top: 53%;
         padding: 0%;
         margin: 0%;
         line-height: 1.1;
@@ -450,24 +262,18 @@ header {
         position: fixed !important;  
         border-radius: 60%;
         object-fit: cover;
-        width: 75px;
-        height: 75px;
+        width: 60px;
+        height: 60px;
         border: 3px solid rgba(255, 0, 0, 0);
         padding: 2px;
         transition: 0.15s;
     
     }
-    .imgs:hover {
-        width: 70px;
-        height: 70px;
-        border: solid 3px rgb(58, 121, 165);
-        transition: 0.15s;
-        padding: 2px;
-    }
+    
     .imgs:active {
         transition: 0.1s ease-in-out;
-        width: 80px;
-        height: 80px;
+        width: 65px;
+        height: 65px;
     }
 
     #instabtm {
@@ -519,390 +325,211 @@ header {
         left: 58%;
     }
 }
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
 
-@media screen and (max-width: 1280px) and (max-height: 586px){
-  html {
-    background-color: rgba(28, 28, 28) !important;
-    color: #e8e6e3;
-}
-
-body {
-    overflow-x: hidden  ;
-}
-
-.home {
-    font-family: "Noto Sans", sans-serif; 
-
-}
-
-.profileh {
-    object-fit: cover;
-    border-radius: 50%;
-    width: 105px; 
-    height: 105px;
-}
-
-.welc {
-    margin-left: 1%;
-}
-
-.eutransparente {
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    width: 30%; 
-    height: auto;
-    float: right;
-    position: absolute;
-    right: -2%;
-    bottom: 0%;
-    
- }
-
-header {    
-    padding: 10px 0px 10px 10px;
-    background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
-    background-color: rgba(27, 57, 78);
-    top: 0;
-    left: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#btn1 {
-    position: fixed;
-    left: 60%;
-    top: 10%;
-}
-
-
-#btn2 {
-    position: fixed;
-    left: 70%;
-    top: 10%;
-}
-
-#about {
-    position: fixed;
-    top: 20%;
-    left: 2%;
-    font-weight: bold;
-}
-
-#langs {
-    position: fixed;
-    top: 20%;
-    right: 48.07%;
-    font-weight: bold;
-}
-
-#text1 {
-    position: fixed;
-    font-size: 125%;
-    width: 30%;
-    height: auto;
-    top: 32%;
-    left: 2%;
-    padding: 0%;
-    margin: 0%;
-    line-height: 1.5;
-}
-
-#text2 {
-    position: fixed;
-    font-size: 125%;
-    width: 30%;
-    height: auto;
-    top: 32%;
-    left: 37.5%;
-    padding: 0%;
-    margin: 0%;
-    line-height: 1.5;
-}
-
-.imgs { 
-    position: fixed !important;  
-    border-radius: 60%;
-    object-fit: cover;
-    width: 65px;
-    height: 65px;
-    border: 3px solid rgba(255, 0, 0, 0);
-    padding: 2px;
-    transition: 0.15s;
-
-}
-.imgs:hover {
-    width: 60px;
-    height: 60px;
-    border: solid 3px rgb(58, 121, 165);
-    transition: 0.15s;
-    padding: 2px;
-}
-.imgs:active {
-    transition: 0.1s ease-in-out;
-    width: 70px;
-    height: 70px;
-}
-
-#gmailbtn {
-    top: 85%;
-    left: 2%;
-}
-
-#whatsbtn {
-    top: 85%;
-    left: 9%;
-}
-
-#whatsbtn {
-    top: 85%;
-    left: 9%;
-}
-
-#linkedinbtn {
-    top: 85%;
-    left: 16%;
-}
-#linkedinbtn {
-    top: 85%;
-    left: 16%;
-}
-
-#gitbtn {
-    top: 85%;
-    left: 23%;
-}
-#gitbtn {
-    top: 85%;
-    left: 23%;
-}
-
-#instabtm {
-    top: 85%;
-    left: 30%;
-}
-#instabtm {
-    top: 85%;
-    left: 30%;
-}
-
-#contacts {
-    position: fixed !important; 
-    top: 75%;
-    left: 2%;
-}
-
-#projects {
-    position: fixed !important; 
-    top: 75%;
-    left: 39.5%;
-}
-
-#P1 {
-    top: 85%;
-    left: 42%;
-}
-
-#P2 {
-    top: 85%;
-    left: 49%;
-}
-}
-
-@media screen and (max-width: 2048px) and (max-height: 973px){
+@media screen and (min-width: 1024px) and (min-height: 700px){
     html {
-      background-color: rgba(28, 28, 28) !important;
-      color: #e8e6e3;
-  }
-  
-  body {
-      overflow-x: hidden  ;
-  }
-  
-  .home {
-      font-family: "Noto Sans", sans-serif; 
-  
-  }
-  
-  .profileh {
-      object-fit: cover;
-      border-radius: 50%;
-      width: 105px; 
-      height: 105px;
-  }
-  
-  .welc {
-      margin-left: 1%;
-  }
-  
-  .eutransparente {
-      display: flex;
-      flex-direction: column;
-      align-items: right;
-      width: 30%; 
-      height: auto;
-      float: right;
-      position: absolute;
-      right: -2%;
-      bottom: 0%;
-      
-   }
-  
-  header {    
-      padding: 10px 0px 10px 10px;
-      background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
-      background-color: rgba(27, 57, 78);
-      top: 0;
-      left: 0;
-      right: 0;
-      left: 0;
-      position: fixed;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
-  
-  #btn1 {
-      position: fixed;
-      left: 60%;
-      top: 10%;
-  }
-  
-  
-  #btn2 {
-      position: fixed;
-      left: 70%;
-      top: 10%;
-  }
-  
-  #about {
-      position: fixed;
-      top: 20%;
-      left: 2%;
-      font-weight: bold;
-  }
-  
-  #langs {
-      position: fixed;
-      top: 20%;
-      right: 48.07%;
-      font-weight: bold;
-  }
-  
-  #text1 {
-      position: fixed;
-      font-size: 125%;
-      width: 30%;
-      height: auto;
-      top: 32%;
-      left: 2%;
-      padding: 0%;
-      margin: 0%;
-      line-height: 1.5;
-  }
-  
-  #text2 {
-      position: fixed;
-      font-size: 125%;
-      width: 30%;
-      height: auto;
-      top: 32%;
-      left: 37.5%;
-      padding: 0%;
-      margin: 0%;
-      line-height: 1.5;
-  }
-  
-  .imgs { 
-      position: fixed !important;  
-      border-radius: 60%;
-      object-fit: cover;
-      width: 65px;
-      height: 65px;
-      border: 3px solid rgba(255, 0, 0, 0);
-      padding: 2px;
-      transition: 0.15s;
-  
-  }
-  .imgs:hover {
-      width: 60px;
-      height: 60px;
-      border: solid 3px rgb(58, 121, 165);
-      transition: 0.15s;
-      padding: 2px;
-  }
-  .imgs:active {
-      transition: 0.1s ease-in-out;
-      width: 70px;
-      height: 70px;
-  }
-  
-  #gmailbtn {
-      top: 85%;
-      left: 2%;
-  }
-  
-  #whatsbtn {
-      top: 85%;
-      left: 9%;
-  }
-  
-  #whatsbtn {
-      top: 85%;
-      left: 9%;
-  }
-  
-  #linkedinbtn {
-      top: 85%;
-      left: 16%;
-  }
-  #linkedinbtn {
-      top: 85%;
-      left: 16%;
-  }
-  
-  #gitbtn {
-      top: 85%;
-      left: 23%;
-  }
-  #gitbtn {
-      top: 85%;
-      left: 23%;
-  }
-  
-  #instabtm {
-      top: 85%;
-      left: 30%;
-  }
-  #instabtm {
-      top: 85%;
-      left: 30%;
-  }
-  
-  #contacts {
-      position: fixed !important; 
-      top: 75%;
-      left: 2%;
-  }
-  
-  #projects {
-      position: fixed !important; 
-      top: 75%;
-      left: 39.5%;
-  }
-  
-  #P1 {
-      top: 85%;
-      left: 42%;
-  }
-  
-  #P2 {
-      top: 85%;
-      left: 49%;
-  }
-  }
-  
+        background-color: rgba(28, 28, 28) !important;
+        color: #e8e6e3;
+    }
+    
+    body {
+        overflow-x: hidden  ;
+    }
+    
+    .home {
+        font-family: "Noto Sans", sans-serif; 
+    
+    }
+    
+    .profileh {
+        object-fit: cover;
+        border-radius: 50%;
+        width: 130px; 
+        height: 130px;
+    }
+    
+    .welc {
+        margin-left: 1%;
+    }
+    
+    .eutransparente {
+        display: flex;
+        flex-direction: column;
+        align-items: right;
+        width: 31%;
+        height: auto;
+        float: right;
+        position: absolute;
+        right: -2%;
+        top: 2%;
+        margin: 0px;
+        bottom: 0%;
+        
+     }
+    
+    header {    
+        padding: 10px 0px 10px 10px;
+        background: linear-gradient(to right, rgba(27, 57, 78), rgba(28, 28, 28));
+        background-color: rgba(27, 57, 78);
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #btn1 {
+        position: fixed;
+        left: 60%;
+        top: 10%;
+    }
+    
+    
+    #btn2 {
+        position: fixed;
+        left: 70%;
+        top: 10%;
+    }
+    
+    #about {
+        font-size: 40px;
+        position: fixed;
+        top: 16%;
+        left: 2%;
+        font-weight: bold;
+    }
+    
+    #langs {
+        font-size: 40px;
+        position: fixed;
+        top: 16%;
+        right: 48.07%;
+        font-weight: bold;
+    }
+    
+    #contacts {
+        position: fixed !important; 
+        top: 75%;
+        left: 2%;
+        font-size: 30px;
+    }
+    
+    #projects {
+        position: fixed !important; 
+        top: 75%;
+        left: 40%;
+        font-size: 30px;
+
+    }
+
+    #text1 {
+        position: fixed;
+        font-size: 150%;
+        width: 34%;
+        height: auto;
+        top: 28%;
+        left: 2%;
+        padding: 0%;
+        margin: 0%;
+        line-height: 1.5;
+    }
+    
+    #text2 {
+        position: fixed;
+        font-size: 150%;
+        width: 34%;
+        height: auto;
+        top: 28%;
+        left: 40%;
+        padding: 0%;
+        margin: 0%;
+        line-height: 1.5;
+    }
+    
+    .imgs { 
+        position: fixed !important;  
+        border-radius: 60%;
+        object-fit: cover;
+        width: 75px;
+        height: 75px;
+        border: 3px solid rgba(255, 0, 0, 0);
+        padding: 2px;
+        transition: 0.15s;
+    
+    }
+    .imgs:hover {
+        width: 70px;
+        height: 70px;
+        border: solid 3px rgb(58, 121, 165);
+        transition: 0.15s;
+        padding: 2px;
+    }
+    .imgs:active {
+        transition: 0.1s ease-in-out;
+        width: 80px;
+        height: 80px;
+    }
+    
+    #gmailbtn {
+        top: 85%;
+        left: 2%;
+    }
+    
+    #whatsbtn {
+        top: 85%;
+        left: 9%;
+    }
+    
+    #whatsbtn {
+        top: 85%;
+        left: 9%;
+    }
+    
+    #linkedinbtn {
+        top: 85%;
+        left: 16%;
+    }
+    #linkedinbtn {
+        top: 85%;
+        left: 16%;
+    }
+    
+    #gitbtn {
+        top: 85%;
+        left: 23%;
+    }
+    #gitbtn {
+        top: 85%;
+        left: 23%;
+    }
+    
+    #instabtm {
+        top: 85%;
+        left: 30%;
+    }
+    #instabtm {
+        top: 85%;
+        left: 30%;
+    }
+    
+    #P1 {
+        top: 85%;
+        left: 42%;
+    }
+    
+    #P2 {
+        top: 85%;
+        left: 49%;
+    }
+    #desc1 {
+        
+    }
+    #P1:hover #desc1 {
+        top: 85%;
+        left: 42%;
+    }
+
+    }
