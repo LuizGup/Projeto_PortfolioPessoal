@@ -164,8 +164,8 @@
 
     .afetado{
         position: fixed;
-        font-size: 100%;
-        width: 20%;
+        font-size: 88%;
+        width: 60%;
         height: auto;
         top: 100%;
         left: 58%;
@@ -177,14 +177,9 @@
     }
      
     a:hover + .afetado {
-        position: fixed;
-        font-size: 100%;
-        width: 55%;
-        height: auto;
+        
         top: 80% !important;
         left: 40%;
-        padding: 0%;
-        margin: 0%;
         line-height: 1.5;
         transition: 1s;
         color: rgb(58, 119, 162) !important;
