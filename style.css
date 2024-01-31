@@ -251,7 +251,7 @@
         top: 14%;
         bottom: 0%;
         animation: right-left 3s ease-in-out forwards;
-
+        z-index: 2;
      }
     
     header {    
